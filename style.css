@@ -118,3 +118,16 @@ label[for] {
     padding-left: 60px;
 }
 
+.login {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.login a {
+    color: #bf7f6b;
+}
+
+.login a:hover {
+    color: aliceblue;
+}
