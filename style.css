@@ -2,7 +2,16 @@
     padding: 0;
     margin: 0;
     font-size: 1.2rem;
+}
 
+@font-face {
+    font-family: very_cool;
+    src: url(./fonts/AnekMalayalam-Medium.ttf);
+}
+
+@font-face {
+    font-family: very_cool_bold;
+    src: url(./fonts/AnekMalayalam-Bold.ttf);
 }
 
 .main {
@@ -27,6 +36,7 @@
     justify-content: center;
     align-items: center;
     background-color: black;
+    color: white;
     height: 6rem;
     opacity: 50%;
     top: 14%;
@@ -34,8 +44,8 @@
     left: 0; 
 }
 
-.overlay-text {
-    color: white;
+.image-overlay img {
+   height: 6rem;
 }
 
 .right-side {
@@ -50,7 +60,10 @@
     margin-top: 50px;
     margin-bottom: 40px;
     width: 60%;
-    
+}
+
+.right-text-desc p {
+    font-family: very_cool; 
 }
 
 .right-text-desc2 {
@@ -81,6 +94,10 @@ button {
     width: 50%;
     flex-direction: column;
     justify-content: center;
+}
+
+.sign-up p {
+    font-family:  very_cool_bold, sans-serif;
 }
 
 #mainForm {
