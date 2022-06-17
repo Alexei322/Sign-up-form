@@ -79,14 +79,7 @@ input {
     font-size: 0.8rem;
     opacity: 50%;
 }
-button {
-    border: none;
-    text-decoration: none;
-    background-color: #bf7f6b;
-    border-radius: 5px;
-    width: 275px;
-    height: 60px;
-}
+
 .sign-up {
     display: flex;
     text-align: start;
@@ -106,6 +99,16 @@ button {
     flex-flow: row wrap;
     gap: 10px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.sign-up button {
+    border: none;
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: #bf7f6b;
+    border-radius: 5px;
+    width: 275px;
+    height: 60px;  
 }
 
 label[for] {
@@ -130,4 +133,16 @@ label[for] {
 
 .login a:hover {
     color: aliceblue;
+}
+
+input {
+    border: 2px solid gray;
+}
+
+input:focus {
+    border: 5px solid aqua;
+    box-shadow: 5px 5px 2.5px black;
+}
+.error {
+    border: 3px solid darkred;
 }
